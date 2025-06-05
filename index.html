@@ -52,7 +52,7 @@
     .logo img {
       max-width: 320px;
       height: auto;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
     }
 
     h1 {
@@ -72,12 +72,18 @@
       color: #D0D0D0;
     }
 
+    p.slogan {
+      font-size: 1.8em;
+      color: #ffffff;
+    }
+
     p.description {
       font-size: 1em;
       max-width: 600px;
       line-height: 1.6;
-      margin-bottom: 40px;
-      color: #ffffff;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      color: #FFA500;
     }
 
     .language-buttons {
@@ -114,7 +120,11 @@
     }
 
     .social-links {
-      margin-top: 100px;
+      margin-top: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
     }
 
     .social-btn {
@@ -122,11 +132,10 @@
       align-items: center;
       gap: 10px;
       background: none;
-      border: 2px solid #4dfcff00;
+      border: none;
       color: #e3e3e3;
       font-size: 1em;
-      padding: 10px 20px;
-      border-radius: 30px;
+      padding: 10px 10px;
       cursor: pointer;
       text-decoration: none;
       transition: all 0.3s ease;
@@ -167,15 +176,13 @@
 
   <div class="logo">
     <img src="logo.png" alt="Trading2Five swing trade signals logo" />
-    <!-- <p class="subtitle">Trade with structure. Win with discipline.</p> -->
+    <p class="slogan">
+      Swing trades. Daily insights. Precision. Patience.
+    </p>  
   </div>
   
-
   <p class="description">
-    We specialize in swing trades, sharing daily analysis, updates, and trade ideas. 
-    Our focus is exclusively on swing trades with high risk/reward ratios. 
-    <br />
-    Join our Telegram channel for <span style="color: #4dfcff;">free for a limited time</span>!
+    Join our 100% free Telegram channel:
   </p>
 
   <div class="language-buttons">
@@ -194,6 +201,10 @@
       <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
       Follow us on Instagram
     </a>
+    <span class="separator">|</span>
+    <a href="terms.html" class="social-btn">Terms & Conditions</a>
+    <span class="separator">|</span>
+    <a href="terms_es.html" class="social-btn">T&eacute;rminos & Condiciones</a>    
   </div>
 
 </body>
